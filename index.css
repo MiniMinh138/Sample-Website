@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+p {
+  padding: 20px;
+}
+
+.tab-menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #007bff;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.tab:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
